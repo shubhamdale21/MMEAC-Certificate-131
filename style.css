@@ -67,6 +67,7 @@
     background: #f49117 !important;
     transform: skewY(-45deg);
     position: absolute;
+    z-index: 1;
     }
     .tri3{
       width: 14.5mm;
@@ -76,6 +77,7 @@
     background: #f49117 !important;
     transform: skewY(45deg);
     position: absolute;
+    z-index: 1;
     }
       .certificate-wrapper .certificate-background .rectbtm {    
         width: 26mm;
@@ -435,6 +437,7 @@ transform: rotate(180deg);
     position: absolute;
     right: 0mm;
     top: -18mm;
+    z-index: 1;
 
       }
       .tri4{
@@ -443,7 +446,9 @@ transform: rotate(180deg);
     font-size: 7mm;
     position: absolute;
     color: rgb(244, 217, 189);
-      }
+    z-index: 1;
+    
+  }
   
       .sign-director-na{
         width: 14.5mm;
@@ -456,12 +461,12 @@ transform: rotate(180deg);
       }
       .org-name {
         left: auto;
-    bottom: -8mm;
-    right: 63mm;
-    text-align: right;
-    font-size: 17pt;
-    font-weight: bold;
-    position: absolute;
+        bottom: -7mm;
+        right: 63mm;
+        text-align: right;
+        font-size: 17pt;
+        font-weight: bold;
+        position: absolute;
       }
      .org-address {
       right: 68mm;
@@ -472,11 +477,14 @@ transform: rotate(180deg);
     font-weight: bold;
     position: absolute;
       }
+      .org-address p{
+        margin-bottom: 6mm;
+      }
      .top {
       margin-bottom: 0mm;
-      margin-top: -3mm;
-      left: 90mm;
-      position: absolute;
+    margin-top: -5.3mm;
+    left: 90mm;
+    position: absolute;
       }
       .date {
         position: absolute;
